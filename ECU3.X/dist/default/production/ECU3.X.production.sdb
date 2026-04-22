@@ -1,0 +1,216 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"62 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\can.c
+[e E10490 _CanOpMode `uc
+e_can_op_mode_bits 224
+e_can_op_mode_normal 0
+e_can_op_mode_sleep 32
+e_can_op_mode_loop 64
+e_can_op_mode_listen 96
+e_can_op_mode_config 128
+]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"25 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"69
+[v _can_receive can_receive `(i  1 e 2 0 ]
+"4 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\clcd.c
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+"27
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+"42
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+"16 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\ecu3_main.c
+[v _config config `(v  1 e 1 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+"4422 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc/pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"14803
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3840 ]
+"14915
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3841 ]
+"15016
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3842 ]
+"15128
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3843 ]
+"20963
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21075
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21167
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21279
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21391
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21469
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"21531
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3911 ]
+"21593
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @3912 ]
+"21655
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @3913 ]
+"21717
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @3914 ]
+"21779
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @3915 ]
+"21841
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @3916 ]
+"21903
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @3917 ]
+"23528
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+"23721
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23833
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"24159
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24274
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24336
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @3943 ]
+"24398
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @3944 ]
+"24460
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @3945 ]
+"24522
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @3946 ]
+"24584
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @3947 ]
+"24646
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @3948 ]
+"24708
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @3949 ]
+"24770
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24879
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24983
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25045
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25116
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25434
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"25714
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"26058
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"27059
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27503
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"36228
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"36231
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"36243
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"36312
+[v _RD7 RD7 `VEb  1 e 0 @31775 ]
+"36660
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36666
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"39180
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39183
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39243
+[v _TRISD7 TRISD7 `VEb  1 e 0 @31919 ]
+"39600
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"12 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\can.c
+[v _can_payload can_payload `[13]uc  1 e 13 0 ]
+"25 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\ecu3_main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"47
+[v main@temp temp `uc  1 a 1 12 ]
+"33
+[v main@rx_id rx_id `us  1 a 2 21 ]
+"34
+[v main@rx_len rx_len `uc  1 a 1 23 ]
+"30
+[v main@rx_data rx_data `[8]uc  1 a 8 13 ]
+"139
+} 0
+"16
+[v _config config `(v  1 e 1 0 ]
+{
+"22
+} 0
+"27 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\clcd.c
+[v _init_clcd init_clcd `(v  1 e 1 0 ]
+{
+"40
+} 0
+"25 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"66
+} 0
+"42 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\clcd.c
+[v _clcd_print clcd_print `(v  1 e 1 0 ]
+{
+[v clcd_print@data data `*.35Cuc  1 p 2 2 ]
+[v clcd_print@addr addr `uc  1 p 1 4 ]
+"49
+} 0
+"4
+[v _clcd_write clcd_write `(v  1 e 1 0 ]
+{
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@byte byte `uc  1 p 1 wreg ]
+[v clcd_write@control_bit control_bit `uc  1 p 1 0 ]
+"6
+[v clcd_write@byte byte `uc  1 p 1 1 ]
+"25
+} 0
+"69 C:\Users\nirma\MPLABXProjects\Projects\ECU3.X\can.c
+[v _can_receive can_receive `(i  1 e 2 0 ]
+{
+"77
+[v can_receive@sidl sidl `us  1 a 2 7 ]
+"76
+[v can_receive@sidh sidh `us  1 a 2 5 ]
+"81
+[v can_receive@dlc dlc `uc  1 a 1 9 ]
+"69
+[v can_receive@msg_id msg_id `*.30us  1 p 1 0 ]
+[v can_receive@data data `*.30uc  1 p 1 1 ]
+[v can_receive@len len `*.30uc  1 p 1 2 ]
+"100
+} 0
